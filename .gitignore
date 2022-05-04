@@ -99,3 +99,37 @@ settings.json
 
 # Custom
 **/.DS_Store
+
+
+
+# IDE miscalleneous
+.idea/
+.vscode/
+
+# Components / Files
+# src/components/Auth/
+# src/pages/Auth/
+
+# App modules
+node_modules/
+build
+.DS_Store
+*.tgz
+my-app*
+template/src/__tests__/__snapshots__/
+
+# logging
+lerna-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.changelog
+.npm/
+
+# lock files
+ssl.crt
+ssl.key
+.eslintcache
+.eslintcache/
+
+.env
